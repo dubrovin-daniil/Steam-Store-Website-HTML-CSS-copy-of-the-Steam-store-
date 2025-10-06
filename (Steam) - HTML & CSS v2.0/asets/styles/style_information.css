@@ -1,0 +1,912 @@
+:root {
+    --widthMenu: 40px; 
+}
+
+.body {
+    width: 100vh;
+    height: fit-content;
+}
+
+header {
+    background-color: #171D25;
+    height: 11vh;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_container>.header_buttons_container {
+    display: flex;
+    align-items: start;
+}
+
+.logo_steam {
+    width: 50%;
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+
+.header_page_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    right: 150px;
+}
+
+.button_page {
+    color: rgb(223, 223, 223);
+}
+
+.button_page:hover {
+    color: white;
+}
+
+.button_page_select {
+    color: #1c86d1;
+    border-bottom: 3px solid #1c86d1;
+    border-radius: 1px;
+}
+
+.button_page_store {
+    color: rgb(223, 223, 223);
+}
+
+.button_page_store:hover {
+    color: white;
+}
+
+.button_page_store:hover .store_window {
+    display: flex;
+    background-color: #3D4450;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button_page_store:hover {
+    border-bottom: 0px solid #1c86d100;
+    border-radius: 0px;
+}
+
+.store_window {
+    display: none;
+    background-color: #3D4450;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 3;
+}
+
+.store_window_text {
+    width: 100px;
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 5px;
+}
+
+.store_window_text:hover {
+    color: black;
+    background-color: white;
+}
+
+.decoration_none {
+    text-decoration: none;
+}
+
+.header_buttons_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 90px;
+}
+
+.install_steam_button {
+    padding-top: 10px;
+}
+
+.buttons_text {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    bottom: 5px;
+}
+
+.stick {
+    color: white;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+.bot_arrow {
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+.white_text {
+    color: rgb(223, 223, 223);
+}
+
+.white_text:hover {
+    color: white;
+}
+
+.main_container_1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D2024;
+    height: fit-content;
+    padding: 20px;
+}
+
+.main_container_1>.more {
+    display: flex;
+    flex-direction: column;
+    background-color: #1D2024;
+    height: fit-content;
+    align-items: center;
+}
+
+.main_content_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}   
+
+.main_content_text_1 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+}
+
+
+.text_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.steam_logo {
+    width: 80%;
+}
+
+.Steam_is_best{
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+
+}
+
+.online_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blue_circul {
+    width: 10px;
+    height: 10px;
+    background-color: #2EBFFF;
+    border-radius: 50px;
+}
+
+.green_circul {
+    width: 10px;
+    height: 10px;
+    background-color: #BAFF2E;
+    border-radius: 50px;
+}
+
+.text_online {
+    position: relative;
+    margin: 0px;
+    bottom: 5px;
+    left: 5px;
+    color: #8D8D8F;
+    font-family: sans-serif;
+}
+
+.number_online {
+    color: white;
+    font-family: sans-serif;
+    font-size: x-large;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.div_style_text {
+    display: flex;
+    flex-direction: row;
+}
+
+.install_steam_button_main {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(to left, #2C76FF, #06BFFF 80%);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.install_steam_button_main:hover {
+    background: linear-gradient(to left, #2C76FF, #06BFFF 0%);
+}
+
+.platform {
+    display: flex;
+    flex-direction: row;
+}
+
+.client_text {
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+    width: 200%;
+}
+
+.os_img_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.os_img {
+    width: 7%;
+    margin-left: 10px;
+}
+
+.more_text {
+    color: #616363;
+    font-family: sans-serif;
+    position: relative;
+    right: 40px;
+
+}
+
+.text_decoration_none {
+    text-decoration: none;
+}
+
+.main_container_2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #1D2024;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_h1_2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.main_text_2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.store_a_text{
+    color: #2CB1EE;
+    font-family: sans-serif;
+    font-size: large;
+    text-align: center;
+    transition: all 1s;
+}
+
+.main_text_container_2{
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.games_img {
+    width: 25%;
+}
+
+.arrow_anim {
+    transition: all 1s;
+}
+
+.store_a_text:hover .arrow_anim {
+    position: relative;
+    left: 10px;
+}
+
+.main_container_3 {
+    background-color: #17191C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.main_content_container {
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content_text{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin-right: 100px;
+}
+
+.img_size {
+    width: 600px;
+}
+
+.img_size1 {
+    width: 600px;
+    margin-right: 100px;
+}
+
+.h2_white_text {
+    color: white;
+    font-family: sans-serif;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.p_white_text {
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    margin: 0px;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    height: 290px;
+    background-color: #171A21;
+    justify-content: center;
+}
+
+.footer_wrapper {
+    width: 940px;
+    height: 100px;
+
+}
+
+.footer_container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.img_footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.img_valve {
+    width: 10%;
+}
+
+.img_steam {
+    width: 10%;
+}
+
+.p_footer {
+    color: #969EAB;
+}
+
+.a_footer {
+    text-decoration: none;
+    color: #C6D4DF;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.a_footer:hover {
+    color: white;
+}
+
+.a_footer1 {
+    display: flex;
+    text-decoration: none;
+    color: #C6D4DF;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: small;
+    width: 100%;
+    justify-content: center;
+}
+
+.a_footer1:hover {
+    color: white;
+}
+
+.min_top_nav_footer {
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.min_bot_nav_footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.stick_footer {
+    position: relative;
+    color: #C6D4DF;
+    bottom: 20px;
+}
+
+.footer_container>.min_bot_nav_footer {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    width: 100%;
+}
+
+.img_footer1 {
+    width: 16px;
+    height: 16px;
+}
+
+.text_footer {
+    width: fit-content;
+    height: fit-content;
+}
+
+.decoration_none_h3{
+    text-decoration: none;
+    color: rgb(223, 223, 223);
+}
+
+.menu_media_window {
+    background-color: #171A21;
+    position: fixed;
+    z-index: 10;
+    padding: 20px;
+    width: 20vw;
+    height: 100vh;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    display: none;
+    margin-top: 100px;
+}
+
+.h3_media_menu {
+    color: #BDBDBD;
+    margin: 0px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+    position: relative;
+
+}
+
+.menu_media {
+    width: var(--widthMenu);
+    position: fixed;
+    right: 0px;
+    display: none;
+}
+
+.hamburger_button {
+    width: 100%;
+}
+
+.hamburger_button:hover .menu_media_window{
+    display: block;
+}
+
+.button_img {
+    width: 100%;
+}
+
+@media screen and (max-width:1355px)  and (min-width:1195px) {
+    .main_content_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        width: 30vw;
+    }   
+
+    .steam_pc {
+        width: 200%;
+    }
+}
+
+@media screen and (max-width:1195px) and (min-width:840px) {
+    .main_content_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        width: 30vw;
+    }   
+
+    .steam_pc {
+        width: 200%;
+    }
+
+    .header_page_container {
+        position: none;
+        display: none;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        right: 150px;
+    }
+
+    .header_buttons_container {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .menu_media {
+        width: var(--widthMenu);
+        display: block;
+    }
+
+    .main_content_container {
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+        margin-bottom: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_size {
+        width: 50vw;
+    }
+    
+    .img_size1 {
+        width: 50vw;
+        margin-right: 100px;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width:840px) and (min-width:520px) {
+
+    .main_container_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1D2024;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    .menu_media {
+        width: var(--widthMenu);
+        display: block;
+    }
+
+    header {
+        position:sticky;
+        background-color: #171D25;
+        height: fit-content;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .more {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .main_content_1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+    }   
+
+    .steam_pc {
+        width: 200%;
+    }
+
+    .header_page_container {
+        position: none;
+        display: none;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        right: 150px;
+    }
+
+    .header_buttons_container {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .main_content_container {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-bottom: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_size {
+        width: 50vw;
+    }
+    
+    .img_size1 {
+        width: 50vw;
+        margin-right: 100px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .games_img {
+        width: 10%;
+    }
+
+    .main_container_2 {
+        display: flex;
+        flex-direction: row;
+        background-color: #1D2024;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:520px) and (min-width:425px)  {
+
+    .main_container_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1D2024;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    header {
+        position:sticky;
+        background-color: #171D25;
+        height: fit-content;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .menu_media {
+        width: var(--widthMenu);
+        display: block;
+    }
+
+    .more {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .main_content_1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+    }   
+
+    .steam_pc {
+        width: 200%;
+    }
+
+    .header_page_container {
+        position: none;
+        display: none;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        right: 150px;
+    }
+
+    .header_buttons_container {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .main_content_container {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-bottom: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_size {
+        width: 50vw;
+    }
+    
+    .img_size1 {
+        width: 50vw;
+        margin-right: 100px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .games_img {
+        width: 10%;
+    }
+
+    .main_container_2 {
+        display: flex;
+        flex-direction: row;
+        background-color: #1D2024;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_content_text{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .main_container_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1D2024;
+        height: fit-content;
+        padding: 20px;
+    }
+
+    header {
+        position:sticky;
+        background-color: #171D25;
+        height: fit-content;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .menu_media {
+        width: var(--widthMenu);
+        display: block;
+    }
+
+    .more {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .main_content_1 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+    }   
+
+    .steam_pc {
+        width: 200%;
+    }
+
+    .header_page_container {
+        position: none;
+        display: none;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        right: 150px;
+    }
+
+    .header_buttons_container {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .main_content_container {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-bottom: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img_size {
+        width: 50vw;
+    }
+    
+    .img_size1 {
+        width: 50vw;
+        margin-right: 100px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .games_img {
+        width: 10%;
+    }
+
+    .main_container_2 {
+        display: flex;
+        flex-direction: row;
+        background-color: #1D2024;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_content_text{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-right: 100px;
+    }
+
+    .main_content_text_1 {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    
+    }
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asets/styles/style_login.css">
+    <link rel="stylesheet" href="/asets/styles/normalized.css">
+    <link rel="icon" href="/asets/img/header_img/Steam_icon_logo.svg.png">
+    <title>Войти</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_container">
+            <div class="menu_media">
+                <div class="hamburger_button">
+                    <img class="button_img" src="/asets/img/header_img/header_menu_hamburger.png" alt="hamburder_img">
+                    <div class="menu_media_window">
+                        <a class="decoration_none"  href="/index_login.html">
+                            <h3 class="h3_media_menu">Войти</h3>
+                        </a>
+                        <a class="decoration_none"  href="/index.html">
+                            <h3 class="h3_media_menu">Магазин</h3>
+                        </a>
+                        <a class="decoration_none"  href="/index_statistics.html">
+                            <h3 class="h3_media_menu">Статистика</h3>
+                        </a>
+                        <a class="decoration_none"  href="/index_information.html">
+                            <h3 class="h3_media_menu">Информация</h3>
+                        </a>
+                        <a class="decoration_none"  href="/index_support.html">
+                            <h3 class="h3_media_menu">Поддержка</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="/index.html"><img class="logo_steam" src="/asets/img/header_img/logo_steam.svg"
+                        alt="steam_logo"></a>
+            </div>
+            <div class="header_page_container">
+                <a class="decoration_none_h3" href="/index.html"><h3 class="button_page_select">МАГАЗИН
+                    <div class="store_window">
+                        <p class="store_window_text">Главная</p>
+                        <p class="store_window_text">Рекомендации</p>
+                        <p class="store_window_text">Список желаемого</p>
+                        <p class="store_window_text">Предметы за очки</p>
+                        <p class="store_window_text">Новости</p>
+                        <a class="decoration_none" href="/index_statistics.html">
+                            <p class="store_window_text">Статистика</p>
+                        </a>
+                    </div>
+                    </h3>
+                </a>
+                <a class="decoration_none" href="">
+                    <h3 class="button_page">СООБЩЕСТВО</h3>
+                </a>
+                <a class="decoration_none" href="/index_information.html">
+                    <h3 class="button_page">ИНФОРМАЦИЯ</h3>
+                </a>
+                <a class="decoration_none" href="/index_support.html">
+                    <h3 class="button_page">ПОДДЕРЖКА</h3>
+                </a>
+            </div>
+            <div class="header_buttons_container">
+                <a href="">
+                    <img class="install_steam_button" src="/asets/img/header_img/install steam.png" alt="install_steam">
+                </a>
+                <div class="buttons_text">
+                    <a class="decoration_none" href="/index_login.html">
+                        <p class="white_text">войти</p>
+                    </a>
+                    <p class="stick"> | </p>
+                    <a class="decoration_none" href="">
+                        <p class="white_text">язык</p>
+                    </a>
+                    <a class="decoration_none" href=""><span class="bot_arrow">&#9660;</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_full_top_container">
+            <h1 class="h1_main_text">Вход</h1>
+            <div class="main_top_container">
+                <form class="main_top_form" action="" method="get">
+                    <div class="login_form1">
+                        <label class="blue_text" for="name">ВОЙТИ, ИСПОЛЬЗУЯ ИМЯ АККАУНТА</label>
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <div class="login_form1">
+                        <label class="grey_text" for="email">ПАРОЛЬ</label>
+                        <input type="password" name="email" id="email" required />
+                    </div>
+                    <div class="login_form2">
+                        <input class="custom-checkbox" type="checkbox" name="remember_me" id="remember_me"/>
+                        <label class="grey_text" for="remember_me">Запомнить меня</label>
+                    </div>
+                    <div class="login_form3">
+                        <a href=""><input class="button_login" type="submit" value="Войти" /></a>
+                    </div>
+                    <div class="help_text">
+                        <a id="a_hover" class="grey_text" href="">Помогите, я не могу войти в аккаунт</a>
+                    </div>
+                </form>
+                <div class="main_top_qrcode">
+                    <p class="blue_text">ИЛИ ПРИ ПОМОЩИ QR-КОДА</p>
+                    <img class="qr-code" src="/asets/img/login_page_img/qr_code.png" alt="qr-code">
+                    <p id="center_text" class="grey_text">Используйте <a class="grey_text" id="a_hover" href="">мобильное приложение
+                            Steam</a>, чтобы войти с помощью QR-кода</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="main_bot_container">
+        <div class="bot_container">
+            <div class="main_bot_form">
+                <form class="column_form" action="">
+                    <label class="main_bot_white_text" for="create_acount_button">Первый раз в Steam?</label>
+                    <a href=""><input id="button_font" type="button" name="create_acount_button" value="Создать аккаунт"></a>
+                </form>
+            </div>
+            <div class="main_bot_text">
+                <p id="center_text" class="grey_text">Это бесплатно и просто. Откройте для себя тысячи игр, в которые можно играть с миллионами
+                    новых друзей. <a id="a_hover" class="grey_text" href="">Узнайте больше о Steam</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_wrapper">
+            <hr class="hr_footer">
+            <div class="footer_container">
+                <div class="img_footer">
+                    <img class="img_valve" src="/asets/img/footer_img/footerLogo_valve.png" alt="footerLogo_valve">
+                    <img class="img_steam" src="/asets/img/footer_img/footerLogo_steam.png" alt="footerLogo_steam">
+                </div>
+                <div class="text_footer">
+                    <p class="p_footer">©2025 Valve Corporation. Все права сохранены. Все торговые марки являются собственностью соответствующих владельцев в США и других странах.
+                        НДС включен во все цены, где он применим.                     
+                        <div class="min_top_nav_footer">
+                            <a class="a_footer" href="">Политика конфиденциальности</a><p class="stick_footer"> | </p>
+                            <a class="a_footer" href="">Правовая информация</a><p class="stick_footer"> | </p>
+                            <a class="a_footer" href="">Соглашение подписчика Steam</a><p class="stick_footer"> | </p>
+                            <a class="a_footer" href="">Возвраты</a><p class="stick_footer"> | </p>
+                            <a class="a_footer" href="">Файлы cookie</a>
+                        </div>
+                    </p>
+                </div>
+                <hr>
+                <div class="min_bot_nav_footer">
+                    <a class="a_footer1" href="">O Valve</a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href="">Вакансии</a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href="">Steamworks</a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href="">Дистрибуция Steam</a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href="">Служба поддержки</a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href="">Подарочные карты</a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href=""><img class="img_footer1" src="/asets/img/footer_img/ico_facebook.png" alt="facebook_icon"></a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href=""><img class="img_footer1" src="/asets/img/footer_img/ico_twitter.png" alt="twitter_icon"></a><p class="stick_footer"> | </p>
+                    <a class="a_footer1" href=""><img class="img_footer1" src="/asets/img/footer_img/ico_bsky.png" alt="bsky_icon"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
